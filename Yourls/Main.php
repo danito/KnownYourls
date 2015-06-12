@@ -24,11 +24,7 @@ namespace IdnoPlugins\Yourls {
                 }
             }
 
-            $yourls_api = \Idno\Core\site()->config->config['yourls']['yourls_api'];
-
-
             // Handle shorten event
-
             \Idno\Core\site()->addEventHook('url/shorten', function(\Idno\Core\Event $event) {
 
                 if (chkYourls()) {
