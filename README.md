@@ -1,4 +1,7 @@
 # KnownYourls
+THIS IS EARLY BETA AND DOESNT WORK YET 
+Collaboration is welcome.
+
 Plug-in to use your own Yourls url-shortener with Known
 
 install yourls from yourls.org on your server.
