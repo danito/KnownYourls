@@ -35,7 +35,7 @@ namespace IdnoPlugins\Yourls {
                     try {
 			$result = \Idno\Core\Webservice::get($yourls_api, [
 				    'signature' => $yourls_secret_token,
-				    'action' => 'shortenurl',
+				    'action' => 'shorturl',
 				'url'=> $url, 'format'=>'json'
 			]);
 
