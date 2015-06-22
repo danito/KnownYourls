@@ -24,10 +24,7 @@ namespace IdnoPlugins\Yourls {
                 }
             }
 
-            \Idno\Core\site()->addEventHook('syndicate', function(\Idno\Core\Event $event) {
-                error_log("Syndicate it", 4);
-                //  echo "<pre>";     var_dump($event);
-            });
+          
             // Listen to link text expand
             \Idno\Core\site()->addEventHook('url/expandintext', function(\Idno\Core\Event $event) {
 
